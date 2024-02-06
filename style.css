@@ -3,10 +3,8 @@ body {
   color: #222222;
   margin: 0; /* Remove default margin */
   padding: 20px; /* Add some padding */
-  background: linear-gradient(-45deg, #EEEEEE, #DDDDDD, #BBBBBB, #AAAAAA);
-  background-size: 300% 300%;
-  animation: gradient 55s ease infinite;
-  height: 100vh;
+  background: white;
+
 }
   
 
@@ -66,16 +64,6 @@ li {
   width: auto;
   margin: 10px auto; /* Add margin around the image */
 }
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 .bg-modal {
     width: 100%;
     height: 100%;
