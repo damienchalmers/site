@@ -1,6 +1,6 @@
 body {
   font-family: Menlo;
-  color: #333366;
+  color: #222222;
   margin: 0; /* Remove default margin */
   padding: 20px; /* Add some padding */
   background: linear-gradient(-45deg, #EEEEEE, #DDDDDD, #BBBBBB, #AAAAAA);
@@ -11,7 +11,7 @@ body {
   
 
 h1 {
-  color: #333366;
+  color: #222222;
   text-align: center;
   font-weight: lighter;
   font-size: 0.5em; /* Increase heading size */
@@ -19,14 +19,14 @@ h1 {
 }
 
 p {
-  color: #333366;
+  color: #222222;
   font-weight: lighter;
   font-size: 0.2em; /* Increase heading size */
   line-height: 2; /* Increase line spacing */
 }
 
 a {
-  color: #333366;
+  color: #222222;
   font-weight: lighter;
   font-size: 0.2em; /* Increase heading size */
   line-height: 2; /* Increase line spacing */
@@ -37,7 +37,7 @@ section {
 }
 
 h2 {
-  color: #333366;
+  color: #222222;
   text-align: center;
   font-weight: lighter;
   font-size: 0.5em; /* Increase section heading size */
