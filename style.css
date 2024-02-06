@@ -86,8 +86,8 @@ li {
 }
 
 .modal-contents {
-    height: 1525px;
-    width: 700px;
+    height: 707px;
+    width: 500px;
     max-width: 100%; /* This makes it so if the device is under 600px, it will resize to be the width of the screen and it will not overflow */
     background-color: rgba(255, 255, 255, 0);
     text-align: center;
