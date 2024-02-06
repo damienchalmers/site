@@ -4,7 +4,7 @@ body {
   margin: 0; /* Remove default margin */
   padding: 20px; /* Add some padding */
   background: linear-gradient(-45deg, #DCDCDC, #DDDDDD, #DEDEDE, #f6b092);
-  background-size: 200% 200%;
+  background-size: 300% 300%;
   animation: gradient 15s ease infinite;
   height: 100vh;
 }
