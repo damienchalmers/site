@@ -89,4 +89,8 @@ li {
 
 	/* important:  dimensions or positioning here! */
 }
-
+.iframe-container {
+  /* Other styles for the container */
+  overflow: auto; /* Enable scrolling if needed */
+  -webkit-overflow-scrolling: touch;
+}
