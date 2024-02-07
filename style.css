@@ -127,3 +127,25 @@ li {
     75% {-webkit-transform: translate(-2px, 0px) rotate(3deg);}
     100% {-webkit-transform: translate(0px, 2px) rotate(0deg);} 
 }
+
+
+.modal-contents {
+    height: 525px;
+    width: 700px;
+    max-width: 100%; /* This makes it so if the device is under 600px, it will resize to be the width of the screen and it will not overflow */
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    position: relative;
+    border-radius: 4px;
+}
+
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
