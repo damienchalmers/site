@@ -69,7 +69,7 @@ li {
 
 .columns {
   display: flex;
-  width: 60%;
+  width: 10%;
 }
 /* Default styles (two columns) */
 .column {
