@@ -4,7 +4,7 @@ body {
   margin: 0; /* Remove default margin */
   padding: 30px; /* Add some padding */
   background: white;
-   touch-action: auto;
+  
   
 
 }
