@@ -68,6 +68,7 @@ li {
 .columns {
   display: flex;
   width: 60%;
+ padding: 30px; /* Add some padding */
 }
 
 .column {
