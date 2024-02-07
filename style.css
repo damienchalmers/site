@@ -88,4 +88,10 @@ li {
     display: none;
   }
 }
+.scroll-wrapper {
+	-webkit-overflow-scrolling: touch;
+  	overflow-y: scroll;
+
+	/* important:  dimensions or positioning here! */
+}
 
