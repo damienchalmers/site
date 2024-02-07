@@ -68,11 +68,12 @@ li {
 .columns {
   display: flex;
   width: 60%;
- padding: 30px; /* Add some padding */
+ 
 }
 
 .column {
   flex-grow: 1;
+  padding: 30px; /* Add some padding */
   
 }
 /* Styles for screens smaller than 768px (e.g., mobile devices) */
