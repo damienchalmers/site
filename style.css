@@ -66,6 +66,11 @@ li {
   width: auto;
   margin: 10px auto; /* Add margin around the image */
 }
+
+.columns {
+  display: flex;
+  width: 60%;
+}
 /* Default styles (two columns) */
 .column {
   width: 50%;
