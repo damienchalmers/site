@@ -67,13 +67,9 @@ li {
   margin: 10px auto; /* Add margin around the image */
 }
 
-.columns {
-  display: flex;
-  width: 10%;
-}
 /* Default styles (two columns) */
 .column {
-  width: 50%;
+  width: 40%;
   float: left;
 }
 
