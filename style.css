@@ -140,8 +140,9 @@ li {
     width: 350px; /* Adjust as necessary */
     height: 500px; /* Adjust as necessary */
     border: none; /* Optional, for aesthetics */
-    overflow: auto;
+    overflow: scroll;
     -webkit-overflow-scrolling: touch; /* Key for smooth scrolling on iOS */
+	transform: translate3d(0, 0, 0);
 }
 
 iframe {
@@ -149,10 +150,6 @@ iframe {
     height: 500px; /* Adjust as necessary */
     border: none; /* Optional, for aesthetics */
 }
-.scroll-wrapper {
-	-webkit-overflow-scrolling: touch;
-  	overflow-y: scroll;
-  transform: translate3d(0, 0, 0);
-}
+
 
 
