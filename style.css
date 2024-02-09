@@ -154,7 +154,7 @@ li {
     -webkit-overflow-scrolling: touch; /* Key for smooth scrolling on iOS */
 }
 
-iframe {
+.iframe {
     width: 300px; /* Adjust as necessary */
     height: 545px; /* Adjust as necessary */
     border: none; /* Optional, for aesthetics */
