@@ -137,7 +137,7 @@ li {
   height: 100%;
 }
 .touch-iframe-wrapper {
-    width: 330px; /* Adjust as necessary */
+    width: 350px; /* Adjust as necessary */
     height: 500px; /* Adjust as necessary */
     border: none; /* Optional, for aesthetics */
     overflow: scroll;
@@ -145,7 +145,7 @@ li {
 }
 
 iframe {
-    width: 330px; /* Adjust as necessary */
+    width: 350px; /* Adjust as necessary */
     height: 500px; /* Adjust as necessary */
     border: none; /* Optional, for aesthetics */
 }
