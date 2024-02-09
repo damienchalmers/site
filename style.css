@@ -139,9 +139,11 @@ li {
 .iframe-wrapper {
     width: 350px; /* Adjust as necessary */
     height: 500px; /* Adjust as necessary */
-    border: none; /* Optional, for aesthetics */
-    overflow: scroll;
     -webkit-overflow-scrolling: touch; /* Key for smooth scrolling on iOS */
+	 -webkit-touch-callout: none; /* Disable callout, image save panel */
+            -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+            -webkit-user-select: none; /* Prevent copy paste, to allow, change to text */
+            touch-action: manipulation; /* Allows pinch-zoom but prevents double-tap zoom */
 	transform: translate3d(0, 0, 0);
 }
 
