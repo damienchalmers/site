@@ -140,7 +140,7 @@ li {
     width: 350px; /* Adjust as necessary */
     height: 500px; /* Adjust as necessary */
     border: none; /* Optional, for aesthetics */
-    overflow: scroll;
+    overflow: auto;
     -webkit-overflow-scrolling: touch; /* Key for smooth scrolling on iOS */
 }
 
