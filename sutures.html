@@ -43,6 +43,14 @@ signification.</p>
     <a href="index.html">Home</a>
   </nav>
   <br>
+<script>
+    document.getElementById('iframe-wrapper').addEventListener('touchstart', function(e) {
+        console.log('Wrapper touch start');
+        // Implement custom touch start behavior here
+        // e.preventDefault(); // Uncomment if you need to prevent the default touch behavior
+    });
 
+    // Add more event listeners as needed for touchmove and touchend
+</script>
 </body>
 </html>
