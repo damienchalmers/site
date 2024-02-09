@@ -149,4 +149,10 @@ iframe {
     height: 500px; /* Adjust as necessary */
     border: none; /* Optional, for aesthetics */
 }
+.scroll-wrapper {
+	-webkit-overflow-scrolling: touch;
+  	overflow-y: scroll;
+  transform: translate3d(0, 0, 0);
+}
+
 
