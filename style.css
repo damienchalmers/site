@@ -136,7 +136,7 @@ li {
   width: 100%;
   height: 100%;
 }
-.touch-iframe-wrapper {
+.iframe-wrapper {
     width: 350px; /* Adjust as necessary */
     height: 500px; /* Adjust as necessary */
     border: none; /* Optional, for aesthetics */
