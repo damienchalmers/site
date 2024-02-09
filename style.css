@@ -155,8 +155,8 @@ li {
 }
 
 iframe {
-    width: 100%; /* Adjust as necessary */
-    height: 100%; /* Adjust as necessary */
+    width: 300px; /* Adjust as necessary */
+    height: 545px; /* Adjust as necessary */
     border: none; /* Optional, for aesthetics */
 }
 
