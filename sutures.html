@@ -44,5 +44,14 @@ signification.</p>
     <a href="index.html">Home</a>
   </nav>
   <br>
+   <script>
+        // Your JavaScript code here
+        document.querySelectorAll('.touch-iframe-wrapper iframe').forEach(iframe => {
+            iframe.addEventListener('touchstart', function(e) {
+                console.log('Touch started inside iframe');
+            });
+            // Add more event listeners as needed
+        });
+    </script>
 </body>
 </html>
