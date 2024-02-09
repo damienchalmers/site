@@ -137,16 +137,16 @@ li {
   height: 100%;
 }
 .touch-iframe-wrapper {
-    width: 300px; /* Adjust as necessary */
-    height: 460px; /* Adjust as necessary */
+    width: 330px; /* Adjust as necessary */
+    height: 500px; /* Adjust as necessary */
     border: none; /* Optional, for aesthetics */
     overflow: scroll;
     -webkit-overflow-scrolling: touch; /* Key for smooth scrolling on iOS */
 }
 
 iframe {
-    width: 300px; /* Adjust as necessary */
-    height: 460px; /* Adjust as necessary */
+    width: 330px; /* Adjust as necessary */
+    height: 500px; /* Adjust as necessary */
     border: none; /* Optional, for aesthetics */
 }
 
