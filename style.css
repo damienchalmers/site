@@ -79,20 +79,7 @@ li {
     width: 100%;
     float: none;
   }
-}
 
-.scroll-wrapper {
-	-webkit-overflow-scrolling: touch;
-  	overflow-y: scroll;
-  transform: translate3d(0, 0, 0);
-}
-
-	/* important:  dimensions or positioning here! */
-}
-.iframe-container {
-  /* Other styles for the container */
-  overflow: auto; /* Enable scrolling if needed */
-  -webkit-overflow-scrolling: touch;
 }
 .textGrade {
     background: linear-gradient(
