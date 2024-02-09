@@ -150,8 +150,9 @@ li {
   height: 100%;
 }
 .touch-iframe-wrapper {
-	 width: 100%;
-            height: 100%;
+    width: 300px; /* Adjust as necessary */
+    height: 545px; /* Adjust as necessary */
+    border: none; /* Optional, for aesthetics */
     overflow: scroll;
     -webkit-overflow-scrolling: touch; /* Key for smooth scrolling on iOS */
 }
