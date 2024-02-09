@@ -152,8 +152,6 @@ li {
 .touch-iframe-wrapper {
     overflow: scroll;
     -webkit-overflow-scrolling: touch; /* Key for smooth scrolling on iOS */
-	 width: 300px; /* Adjust as necessary */
-    height: 545px; 
 }
 
 iframe {
