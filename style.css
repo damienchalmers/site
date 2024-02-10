@@ -158,6 +158,9 @@ iframe {
     height: auto; /* Adjust height automatically to maintain the aspect ratio */
   }
 }
+.italic-text {
+    font-style: italic;
+}
 
 
 
