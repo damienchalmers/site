@@ -46,8 +46,8 @@ h2 {
 
 ul {
   list-style: none; /* Remove default bullet points */
-  font-weight: regular;
-  font-size: 0.6em; /* Increase section heading size */
+  font-weight: lighter;
+  font-size: 1em; /* Increase section heading size */
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
 }
