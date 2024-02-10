@@ -54,7 +54,7 @@ ul {
 
 li {
   font-weight: lighter;
-  font-size: 0.6em; /* Increase section heading size */
+  font-size: 1em; /* Increase section heading size */
   margin-bottom: 10px; /* Add space between list items */
 }
 
