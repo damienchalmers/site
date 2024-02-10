@@ -148,7 +148,7 @@ iframe {
 }
 
 .responsive-image {
-  width: 700px;
+  width: 600px;
   height: auto; /* Preserve aspect ratio */
 }
 
