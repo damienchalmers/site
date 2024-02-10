@@ -154,7 +154,7 @@ iframe {
 
 @media (max-width: 768px) {
   .responsive-image {
-    width: 60%; /* Example: Reducing the width to 50% of the container on mobile devices */
+    width: 100%; /* Example: Reducing the width to 50% of the container on mobile devices */
     height: auto; /* Adjust height automatically to maintain the aspect ratio */
   }
 }
