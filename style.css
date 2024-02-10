@@ -148,5 +148,10 @@ iframe {
     height: 500px; /* Adjust as necessary */
     border: none; /* Optional, for aesthetics */
 }
+.custom-image {
+  width: 500px;
+  height: auto; /* Preserve aspect ratio */
+}
+
 
 
