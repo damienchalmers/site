@@ -9,7 +9,6 @@ body {
 
 }
   
-
 h1 {
   color: #222222;
   text-align: center;
@@ -115,7 +114,6 @@ li {
     100% {-webkit-transform: translate(0px, 2px) rotate(0deg);} 
 }
 
-
 .modal-contents {
     height: 525px;
     width: 700px;
@@ -126,7 +124,6 @@ li {
     border-radius: 4px;
 }
 
-
 .responsive-iframe {
   position: absolute;
   top: 0;
@@ -136,6 +133,7 @@ li {
   width: 100%;
   height: 100%;
 }
+
 .iframe-wrapper {
     width: 350px; /* Adjust as necessary */
     height: 500px; /* Adjust as necessary */
@@ -148,8 +146,9 @@ iframe {
     height: 500px; /* Adjust as necessary */
     border: none; /* Optional, for aesthetics */
 }
+
 .responsive-image {
-  width: 500px;
+  width: 400px;
   height: auto; /* Preserve aspect ratio */
 }
 
