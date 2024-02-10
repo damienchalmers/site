@@ -14,21 +14,21 @@ h1 {
   color: #222222;
   text-align: center;
   font-weight: lighter;
-  font-size: 0.5em; /* Increase heading size */
+  font-size: 0.6em; /* Increase heading size */
   margin-bottom: 20px; /* Add space after heading */
 }
 
 p {
   color: #222222;
   font-weight: lighter;
-  font-size: 0.8em; /* Increase heading size */
+  font-size: 0.6em; /* Increase heading size */
   line-height: 2; /* Increase line spacing */
 }
 
 a {
   color: #222222;
   font-weight: lighter;
-  font-size: 0.8em; /* Increase heading size */
+  font-size: 0.6em; /* Increase heading size */
   line-height: 2; /* Increase line spacing */
 }
 
@@ -40,21 +40,21 @@ h2 {
   color: #222222;
   text-align: center;
   font-weight: lighter;
-  font-size: 0.5em; /* Increase section heading size */
+  font-size: 0.6em; /* Increase section heading size */
   margin-bottom: 10px; /* Add space after section heading */
 }
 
 ul {
   list-style: none; /* Remove default bullet points */
   font-weight: lighter;
-  font-size: 0.5em; /* Increase section heading size */
+  font-size: 0.6em; /* Increase section heading size */
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
 }
 
 li {
   font-weight: lighter;
-  font-size: 0.5em; /* Increase section heading size */
+  font-size: 0.6em; /* Increase section heading size */
   margin-bottom: 10px; /* Add space between list items */
 }
 
