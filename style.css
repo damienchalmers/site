@@ -166,7 +166,7 @@ iframe {
 /* Larger font size for screens narrower than 768px */
 @media (max-width: 768px) {
   .text-element {
-    font-size: 1.1em; /* Larger font size for mobile */
+    font-size: 1.4em; /* Larger font size for mobile */
   }
 }
 
