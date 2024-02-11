@@ -158,9 +158,16 @@ iframe {
     height: auto; /* Adjust height automatically to maintain the aspect ratio */
   }
 }
+
 .italic-text {
     font-style: italic;
 }
 
+/* Larger font size for screens narrower than 768px */
+@media (max-width: 768px) {
+  .text-element {
+    font-size: 1.1em; /* Larger font size for mobile */
+  }
+}
 
 
