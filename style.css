@@ -44,7 +44,7 @@ h2 {
 }
 
 ul {
-  list-style: url('doc.svg');
+
   font-weight: lighter;
   font-size: 1em; /* Increase section heading size */
   padding: 0; /* Remove default padding */
@@ -54,13 +54,20 @@ ul {
 li {
 	padding: 36px 0 36px 84px;
 	list-style: none;
-	background-image: url("doc.svg");
+
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 40px;
   font-weight: lighter;
   font-size: 1em; /* Increase section heading size */
   margin-bottom: 10px; /* Add space between list items */
+}
+.one {
+  list-style: url("doc.svg");
+}
+
+.two {
+  list-style: url("art.svg");
 }
 
 .image-section {
