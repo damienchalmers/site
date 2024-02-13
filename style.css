@@ -68,6 +68,9 @@ li {
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 40px;
+	  font-weight: lighter;
+  font-size: 1em; /* Increase section heading size */
+  margin-bottom: 10px; /* Add space between list items */
 }
 
 .two {
