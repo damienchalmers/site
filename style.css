@@ -44,7 +44,7 @@ h2 {
 }
 
 ul {
-
+list-style: none;
   font-weight: lighter;
   font-size: 1em; /* Increase section heading size */
   padding: 0; /* Remove default padding */
