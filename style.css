@@ -44,7 +44,7 @@ h2 {
 }
 
 ul {
-list-style: none;
+list-style: inherit;
   font-weight: lighter;
   font-size: 1em; /* Increase section heading size */
   padding: 0; /* Remove default padding */
@@ -53,7 +53,7 @@ list-style: none;
 
 li {
 	padding: 36px 0 36px 84px;
-	list-style: none;
+	
 
 	background-repeat: no-repeat;
 	background-position: left center;
