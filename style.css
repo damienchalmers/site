@@ -63,6 +63,13 @@ li {
   margin-bottom: 10px; /* Add space between list items */
 }
 
+ul2 {
+  list-style: url('art.svg');
+  font-weight: lighter;
+  font-size: 1em; /* Increase section heading size */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
 
 li2 {
 	padding: 36px 0 36px 84px;
