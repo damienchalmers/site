@@ -44,7 +44,7 @@ h2 {
 }
 
 ul {
-list-style: none;
+list-style: url("doc.svg");
   font-weight: lighter;
   font-size: 1em; /* Increase section heading size */
   padding: 0; /* Remove default padding */
@@ -52,7 +52,7 @@ list-style: none;
 }
 
 li {
- list-style: url("doc.svg");
+ 
   font-weight: lighter;
   font-size: 1em; /* Increase section heading size */
   margin-bottom: 10px; /* Add space between list items */
