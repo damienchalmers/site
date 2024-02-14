@@ -59,8 +59,7 @@ li {
 }
 .one {
 	list-style-image: url("doc.svg");
-	width: 20px;
-	height: 100%;
+
 }
 .image-section {
   text-align: center; /* Center the image and text */
