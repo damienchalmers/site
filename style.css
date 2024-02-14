@@ -53,7 +53,7 @@ list-style: inherit;
 
 li {
  margin: 0;
-	padding: 36px 0 36px 0px;
+	padding: 36px 0 36px 36px;
 	list-style: none;
 	background-image:url("doc.svg");
 	background-repeat: no-repeat;
@@ -66,7 +66,7 @@ li {
 
 .one {
 	margin: 0;
-	padding: 36px 0 36px 0px;
+	padding: 36px 0 36px 36px;
 	list-style: none;
 	background-image:url("art.svg");
 	background-repeat: no-repeat;
