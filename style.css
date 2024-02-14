@@ -1,3 +1,5 @@
+$grid-color: rgba(#000, .05);
+
 body {
   font-family: Menlo;
   color: #222222;
@@ -8,9 +10,6 @@ body {
 	background-image: linear-gradient($grid-color 2px, transparent 2px), linear-gradient(90deg, $grid-color 2px, transparent 2px), linear-gradient(rgba(150, 150, 150, .1) 1px, transparent 1px), linear-gradient(90deg, rgba(150, 150, 150, .1) 1px, transparent 1px);
 	background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
 	background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
-}
-
-  $grid-color: rgba(#000, .05);
 }
   
 h1 {
