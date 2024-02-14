@@ -55,7 +55,7 @@ li {
  margin: 0;
 	padding: 36px 0 36px 84px;
 	list-style: none;
-	
+	background-image:url("doc.svg");
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 40px;
@@ -63,10 +63,20 @@ li {
   font-size: 1em; /* Increase section heading size */
   margin-bottom: 10px; /* Add space between list items */
 }
-.one {
-	list-style-image: url("doc.svg");
 
+li2 {
+ margin: 0;
+	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-image:url("art.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+  font-weight: lighter;
+  font-size: 1em; /* Increase section heading size */
+  margin-bottom: 10px; /* Add space between list items */
 }
+
 .image-section {
   text-align: center; /* Center the image and text */
 }
