@@ -58,7 +58,7 @@ li {
   margin-bottom: 10px; /* Add space between list items */
 }
 .one {
-	ist-style-image: url("doc.svg");
+	list-style-image: url("doc.svg");
 	width: 20px;
 	height: 100%;
 }
