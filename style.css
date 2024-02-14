@@ -13,21 +13,21 @@ h1 {
   color: #222222;
   text-align: right;
   font-weight: lighter;
-  font-size: 0.6em; /* Increase heading size */
+  font-size: 0.8em; /* Increase heading size */
   margin-bottom: 20px; /* Add space after heading */
 }
 
 p {
   color: #222222;
   font-weight: lighter;
-  font-size: 0.6em; /* Increase heading size */
+  font-size: 0.8em; /* Increase heading size */
   line-height: 2; /* Increase line spacing */
 }
 
 a {
   color: #222222;
   font-weight: lighter;
-  font-size: 0.6em; /* Increase heading size */
+  font-size: 0.8em; /* Increase heading size */
   line-height: 2; /* Increase line spacing */
 }
 
