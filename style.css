@@ -57,8 +57,9 @@ li {
   font-size: 1em; /* Increase section heading size */
   margin-bottom: 10px; /* Add space between list items */
 }
-
-
+.one {
+	ist-style-image: url("doc.svg");
+}
 .image-section {
   text-align: center; /* Center the image and text */
 }
