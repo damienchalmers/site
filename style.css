@@ -64,11 +64,11 @@ li {
   margin-bottom: 10px; /* Add space between list items */
 }
 
-li2 {
- margin: 0;
+.one {
+	margin: 0;
 	padding: 36px 0 36px 84px;
 	list-style: none;
-	background-image:url("art.svg");
+	background-image:url("mail.svg");
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 40px;
@@ -76,7 +76,6 @@ li2 {
   font-size: 1em; /* Increase section heading size */
   margin-bottom: 10px; /* Add space between list items */
 }
-
 .image-section {
   text-align: center; /* Center the image and text */
 }
