@@ -37,7 +37,7 @@ section {
 
 h2 {
   color: #222222;
-  text-align: center;
+  text-align: right;
   font-weight: lighter;
   font-size: 0.6em; /* Increase section heading size */
   margin-bottom: 10px; /* Add space after section heading */
