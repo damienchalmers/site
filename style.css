@@ -58,7 +58,7 @@ li {
 	background-image:url("doc.svg");
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-size: 40px;
+	background-size: 20px;
   font-weight: lighter;
   font-size: 1em; /* Increase section heading size */
   margin-bottom: 10px; /* Add space between list items */
@@ -71,7 +71,7 @@ li {
 	background-image:url("art.svg");
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-size: 40px;
+	background-size: 20px;
 }
 .image-section {
   text-align: center; /* Center the image and text */
