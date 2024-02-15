@@ -39,14 +39,14 @@ h1 {
 p {
   color: #222222;
   font-weight: lighter;
-  font-size: 1.1em; /* Increase heading size */
+  font-size: 0.8em; /* Increase heading size */
   line-height: 2; /* Increase line spacing */
 }
 
 a {
   color: #222222;
   font-weight: lighter;
-  font-size: 1.1em; /* Increase heading size */
+  font-size: 1em; /* Increase heading size */
   line-height: 2; /* Increase line spacing */
 }
 
@@ -58,14 +58,14 @@ h2 {
   color: #222222;
   text-align: left;
   font-weight: lighter;
-  font-size: 0.8em; /* Increase section heading size */
+  font-size: 0.6em; /* Increase section heading size */
   margin-bottom: 10px; /* Add space after section heading */
 }
 
 ul {
 list-style: inherit;
   font-weight: lighter;
-  font-size: 2.2em; /* Increase section heading size */
+  font-size: 2em; /* Increase section heading size */
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
 }
@@ -74,7 +74,7 @@ li {
  margin: 0;
  list-style: none;
  font-weight: lighter;
- font-size: 1.1em; /* Increase section heading size */
+ font-size: 1em; /* Increase section heading size */
  margin-bottom: 10px; /* Add space between list items */
 }
 
@@ -196,7 +196,7 @@ iframe {
 /* Larger font size for screens narrower than 768px */
 @media (max-width: 768px) {
   .text-element {
-    font-size: 0.8em; /* Larger font size for mobile */
+    font-size: 1.1em; /* Larger font size for mobile */
   }
 }
 @font-face {
