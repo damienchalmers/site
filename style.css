@@ -1,7 +1,7 @@
 :root {
   --bg-color: #fff;
-  --line-color-1: rgba(#000, .2);
-  --line-color-2: rgba(#000, .1);
+  --line-color-1: #366;
+  --line-color-2: #a9a9a9;
 }
 
 body {
