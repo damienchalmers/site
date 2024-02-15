@@ -73,7 +73,7 @@ li {
  margin: 0;
 	padding: 36px 0 36px 46px;
 	list-style: lower-alpha;
-	background-image:url("doc.svg");
+	
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 25px;
