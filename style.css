@@ -71,12 +71,7 @@ list-style: inherit;
 
 li {
  margin: 0;
-	padding: 36px 0 36px 46px;
 	list-style: lower-alpha;
-	
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 25px;
   font-weight: lighter;
   font-size: 1em; /* Increase section heading size */
   margin-bottom: 10px; /* Add space between list items */
