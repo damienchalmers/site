@@ -71,10 +71,10 @@ list-style: inherit;
 
 li {
  margin: 0;
-	list-style: lower-alpha;
-  font-weight: lighter;
-  font-size: 1em; /* Increase section heading size */
-  margin-bottom: 10px; /* Add space between list items */
+ list-style: none;
+ font-weight: lighter;
+ font-size: 1em; /* Increase section heading size */
+ margin-bottom: 10px; /* Add space between list items */
 }
 
 .one {
