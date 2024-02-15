@@ -65,7 +65,7 @@ ul {
 list-style: inherit;
   font-weight: lighter;
   font-size: 1em; /* Increase section heading size */
-  padding: 10, 10, 10 ,10; /* Remove default padding */
+  padding: 10, 10, 10, 10; /* Remove default padding */
   margin: 0; /* Remove default margin */
 }
 
