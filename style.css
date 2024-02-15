@@ -1,13 +1,23 @@
-html {
-  --s: 100px; /* control the size */
-  
-  --_g: #000 .1 90deg,#222 .1;
-  background: 
-    conic-gradient(from 90deg at 2px 2px,var(--_g))
-     0 0/var(--s) var(--s),
-    conic-gradient(from 90deg at 1px 1px,var(--_g))
-     0 0/calc(var(--s)/5) calc(var(--s)/5);
+:root {
+  --bg-color: #fff;
+  --line-color-1: #366;
+  --line-color-2: #a9a9a9;
 }
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.graph-paper {
+  height: 100%;
+  background-color: var(--bg-color);
+  background-image: 
+    conic-gradient(at calc(100% - 2px) calc(100% - 2px),var(--line-color-1) 270deg, #0000 0),
+    conic-gradient(at calc(100% - 1px) calc(100% - 1px),var(--line-color-2) 270deg, #0000 0);
+  background-size: 100px 100px, 20px 20px;
+}
+
 body {
   font-family: Menlo;
   color: #222222;
