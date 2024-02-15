@@ -238,6 +238,12 @@ iframe {
     font-style: normal;
 }
 
+.form-style 
+    {
+    position: absolute;
+    right: 0;
+}
+
 
 
 
