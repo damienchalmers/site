@@ -1,17 +1,10 @@
+$grid-color: rgba(#000, .2);
 
-:root {
-  --bg-color: #fff;
-  --line-color-1: #366;
-  --line-color-2: #a9a9a9;
-}
-
-.graph-paper {
-  height: 100%;
-  background-color: var(--bg-color);
-  background-image: 
-    conic-gradient(at calc(100% - 2px) calc(100% - 2px),var(--line-color-1) 270deg, #0000 0),
-    conic-gradient(at calc(100% - 1px) calc(100% - 1px),var(--line-color-2) 270deg, #0000 0);
-  background-size: 100%;
+body {
+	background-color: rgba(#fff, .5);
+	background-image: linear-gradient($grid-color 2px, transparent 2px), linear-gradient(90deg, $grid-color 2px, transparent 2px), linear-gradient(rgba(150, 150, 150, .2) 1px, transparent 1px), linear-gradient(90deg, rgba(150, 150, 150, .2) 1px, transparent 1px);
+	background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+	background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
 body {
