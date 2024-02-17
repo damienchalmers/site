@@ -10,7 +10,7 @@ body {
 }
 
 .graph-paper {
- z-index: 0; /* set higher z-index value */
+ z-index: 1; /* set higher z-index value */
   height: 100%;
   background-color: var(--bg-color);
   background-image:
@@ -246,7 +246,7 @@ iframe {
 }
 
 .shape-container{
-  
+ z-index: 0; /* set higher z-index value */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -255,7 +255,7 @@ iframe {
 }
 
 .shape{
-  z-index: 1; /* set higher z-index value */
+
   width: 400px;
   height: 400px;
   background: linear-gradient(64deg, #f34868 23%, #f24768 23%, #9e00ec 80%);
