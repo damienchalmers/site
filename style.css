@@ -7,8 +7,6 @@
 body {
   height: 100vh;
   margin: 0;
-	 z-index: 1; /* set higher z-index value */
-  position: relative; /* position must be set for z-index to work */
 }
 
 .graph-paper {
