@@ -245,27 +245,6 @@ iframe {
     right: 10px;
 }
 
-.shape-container {
- z-index: 0; /* set higher z-index value */
-position: absolute; /* position must be set for z-index to work */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height:100vh;
-  background-color: #ffffff;
-}
-
-.shape {
- 
-  width: 400px;
-  height: 400px;
-  background: linear-gradient(64deg, #f34868 23%, #f24768 23%, #9e00ec 80%);
-  border-radius: 28% 72% 22% 78% / 39% 23% 77% 61%; 
-  transform: rotate(0deg); 
-  will-change: border-radius, transform;
-  animation: blob 10s linear infinite, spin 100s linear infinite;
-  filter: blur(50px);
-}
 
 
 
