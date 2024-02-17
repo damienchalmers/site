@@ -247,7 +247,7 @@ iframe {
 
 .shape-container {
  z-index: 0; /* set higher z-index value */
-position: relative; /* position must be set for z-index to work */
+position: absolute; /* position must be set for z-index to work */
   display: flex;
   align-items: center;
   justify-content: center;
