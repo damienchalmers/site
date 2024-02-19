@@ -289,7 +289,7 @@ iframe {
 .left-column,
 .right-column {
   width: 100%; /* Full width on mobile */
-  padding: 10px;
+  padding: 50px;
 }
 
 @media (min-width: 768px) { /* For larger screens */
