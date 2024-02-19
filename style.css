@@ -282,7 +282,7 @@ iframe {
 }
 
 .container {
-  display: flex; /* For flex-wrap functionality */
+  display: flex;
   flex-direction: column; /* Stack columns on mobile */
 }
 
@@ -293,15 +293,10 @@ iframe {
 }
 
 @media (min-width: 768px) { /* For larger screens */
-  .left-column {
-    float: left;
-  }
-
-  .right-column {
-    float: right;
+  .container {
+    flex-direction: row; /* Switch to row on wider screens */
   }
 }
-
 
 
 
