@@ -281,6 +281,28 @@ iframe {
   z-index: 2;
 }
 
+.container {
+  display: flex; /* For flex-wrap functionality */
+  flex-direction: column; /* Stack columns on mobile */
+}
+
+.left-column,
+.right-column {
+  width: 100%; /* Full width on mobile */
+  padding: 10px;
+}
+
+@media (min-width: 768px) { /* For larger screens */
+  .left-column {
+    float: left;
+  }
+
+  .right-column {
+    float: right;
+  }
+}
+
+
 
 
 
