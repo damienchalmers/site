@@ -301,9 +301,9 @@ iframe {
 .textGrade2 {
     background: linear-gradient(
         to right,
-        #89CFF0 30%,
-        #FFD9E0 60%,
-        #FEB303 90%,
+        aliceblue 30%,
+        pink 60%,
+        wheat 90%,
     );
     -webkit-background-clip: text;
     background-clip: text;
