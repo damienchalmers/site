@@ -304,7 +304,21 @@ iframe {
   width: auto; /* Adjust based on content size */
   max-width: 80%; /* Prevents the box from getting too wide */
 }
+.padded-paragraph3 {
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 120px;
+}
 
+@media (max-width: 768px) {
+  .padded-paragraph3 {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  }
+}
 
 
 
