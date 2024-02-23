@@ -298,7 +298,7 @@ iframe {
   }
 }
 .text-border {
-	background: aliceblue;
+  background: aliceblue;
   border: 1px solid black; /* Thin black border with 1px thickness */
   padding: 10px; /* Padding around the text */
   border-radius: 5px; /* Rounded corners with a radius of 5px */
@@ -307,10 +307,10 @@ iframe {
 }
 
 .container2 {
-	display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
- text-align: left; /* This should center inline or inline-block elements within it */
+  text-align: left; /* This should center inline or inline-block elements within it */
 
 }
 
@@ -338,8 +338,7 @@ display: flex;
 }
 }
 .text-border2 {
-	background: wheat;
-	opacity: 0.75;
+  background: wheat;
   border: 1px solid black; /* Thin black border with 1px thickness */
   padding: 10px; /* Padding around the text */
   border-radius: 5px; /* Rounded corners with a radius of 5px */
