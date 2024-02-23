@@ -306,6 +306,7 @@ iframe {
 }
 
 .container2 {
+	position: center;
  text-align: left; /* This should center inline or inline-block elements within it */
   padding-top: 20px;
   padding-right: 10px;
@@ -330,6 +331,7 @@ iframe {
 }
 @media (max-width: 768px) {
 .container2 {
+position: center;
  text-align: left; /* This should center inline or inline-block elements within it */
   padding-top: 20px;
   padding-right: 5px;
