@@ -323,9 +323,9 @@ iframe {
 @media (max-width: 768px) {
   .padded-paragraph3 {
   padding-top: 10px;
-  padding-right: 10px;
+  padding-right: 2px;
   padding-bottom: 20px;
-  padding-left: 10px;
+  padding-left: 2px;
   }
 }
 
