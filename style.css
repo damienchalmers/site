@@ -323,10 +323,19 @@ iframe {
 @media (max-width: 768px) {
   .padded-paragraph3 {
   padding-top: 10px;
-  padding-right: 2px;
+  padding-right: 10px;
   padding-bottom: 20px;
-  padding-left: 2px;
+  padding-left: 10px;
   }
+}
+@media (max-width: 768px) {
+.container2 {
+ text-align: left; /* This should center inline or inline-block elements within it */
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+}
 }
 
 
