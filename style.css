@@ -41,7 +41,7 @@ p {
   color: #222222;
   font-weight: lighter;
   font-size: 1em; /* Increase heading size */
-  line-height: 3; /* Increase line spacing */
+  line-height: 2; /* Increase line spacing */
 }
 
 a {
