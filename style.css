@@ -306,7 +306,7 @@ iframe {
 }
 
 .container2 {
- text-align: center; /* This should center inline or inline-block elements within it */
+ text-align: left; /* This should center inline or inline-block elements within it */
   padding-top: 20px;
   padding-right: 85px;
   padding-bottom: 20px;
