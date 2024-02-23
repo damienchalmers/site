@@ -297,7 +297,13 @@ iframe {
     flex-direction: row; /* Switch to row on wider screens */
   }
 }
-
+.text-border {
+  border: 1px solid black; /* Thin black border with 1px thickness */
+  padding: 10px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners with a radius of 5px */
+  width: auto; /* Adjust based on content size */
+  max-width: 80%; /* Prevents the box from getting too wide */
+}
 
 
 
