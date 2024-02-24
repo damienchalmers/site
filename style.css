@@ -329,14 +329,7 @@ iframe {
   padding-left: 10px;
   }
 }
-@media (max-width: 768px) {
-.container2 {
 
-  justify-content: center;
-  align-items: center;
-
-}
-}
 
 .text-border2 {
   display: inline-block; /* Add this */
