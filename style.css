@@ -263,7 +263,7 @@ iframe {
 }
 
 .demo > :first-child {
-  background: aliceblue;
+  background: rgba(240, 248, 255, 0.75); /* aliceblue */
   border: 2px solid lightblue;
   z-index: 3;
 }
