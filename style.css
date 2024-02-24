@@ -1,7 +1,7 @@
 :root {
   --bg-color: #fff;
    --line-color-1: rgba(128, 128, 128, 0.10); /* Gray with 50% opacity */
-  --line-color-2: rgba(128, 128, 128, 0); /* Gray with 25% opacity for a lighter grid line */
+  --line-color-2: rgba(128, 128, 128, 0.10); /* Gray with 25% opacity for a lighter grid line */
 }
 
 body {
