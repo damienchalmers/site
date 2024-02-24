@@ -14,8 +14,8 @@ body {
   height: 100%;
   background-color: var(--bg-color);
   background-image:
-    conic-gradient(at calc(100% - 2px) calc(100% - 2px), var(--line-color-1) 270deg, #0000 0),
-    conic-gradient(at calc(100% - 2px) calc(100% - 2px), var(--line-color-2) 270deg, #0000 0);
+    conic-gradient(at calc(100% - 1px) calc(100% - 1px), var(--line-color-1) 270deg, #0000 0),
+    conic-gradient(at calc(100% - 1px) calc(100% - 1px), var(--line-color-2) 270deg, #0000 0); /* -1px for thinner grid */
   background-size: 100px 100px, 20px 20px;
 }
 
