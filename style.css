@@ -298,7 +298,7 @@ iframe {
   }
 }
 .text-border {
-  background: rgba(240, 248, 255, 0.75); /* Adjust opacity to 0.75 */
+  background: rgba(240, 248, 255, 0.75); /* aliceblue // Adjust opacity to 0.75 */
   border: 1px solid black; /* Thin black border with 1px thickness */
   padding: 10px; /* Padding around the text */
   border-radius: 5px; /* Rounded corners with a radius of 5px */
@@ -339,7 +339,7 @@ display: flex;
 }
 
 .text-border2 {
-  background: rgba(245, 222, 179, 0.75); /* Adjust opacity to 0.75 */
+  background: rgba(245, 222, 179, 0.75); /* wheat // Adjust opacity to 0.75 */
   border: 1px solid black; /* Thin black border with 1px thickness */
   padding: 10px; /* Padding around the text */
   border-radius: 5px; /* Rounded corners with a radius of 5px */
