@@ -337,8 +337,9 @@ display: flex;
  text-align: left; /* This should center inline or inline-block elements within it */
 }
 }
+
 .text-border2 {
-  background: wheat;
+   background: rgba(245, 222, 179, 0.75); /* Adjust opacity to 0.75 */
   border: 1px solid black; /* Thin black border with 1px thickness */
   padding: 10px; /* Padding around the text */
   border-radius: 5px; /* Rounded corners with a radius of 5px */
