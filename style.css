@@ -331,7 +331,7 @@ iframe {
 }
 @media (max-width: 768px) {
 .container2 {
-display: flex;
+
   justify-content: center;
   align-items: center;
  text-align: left; /* This should center inline or inline-block elements within it */
