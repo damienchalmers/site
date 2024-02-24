@@ -330,6 +330,13 @@ iframe {
   }
 }
 
+@media (min-width: 768px) { /* For larger screens */
+.container2 {
+ 
+  justify-content: center;
+  align-items: center;
+
+}
 
 .text-border2 {
   display: inline-block;
