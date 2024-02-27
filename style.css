@@ -347,35 +347,9 @@ iframe {
   padding: 10px; /* Padding around the text */
   border-radius: 5px; /* Rounded corners with a radius of 5px */
   width: auto; /* Adjust based on content size */
-  max-width: 40%; /* Prevents the box from getting too wide */
-
-}
-@media (max-width: 768px) {
-	.text-border3 {
-  border: 1px solid black; /* Thin black border with 1px thickness */
-  padding: 10px; /* Padding around the text */
-  border-radius: 5px; /* Rounded corners with a radius of 5px */
-  width: auto; /* Adjust based on content size */
   max-width: 90%; /* Prevents the box from getting too wide */
-	}
-}
-
-.text-border4 {
-  border: 1px solid black; /* Thin black border with 1px thickness */
-  padding: 10px; /* Padding around the text */
-  border-radius: 5px; /* Rounded corners with a radius of 5px */
-  width: auto; /* Adjust based on content size */
-  max-width: 40%; /* Prevents the box from getting too wide */
 
 }
-@media (max-width: 768px) {
-	.text-border4 {
-  border: 1px solid black; /* Thin black border with 1px thickness */
-  padding: 10px; /* Padding around the text */
-  border-radius: 5px; /* Rounded corners with a radius of 5px */
-  width: auto; /* Adjust based on content size */
-  max-width: 90%; /* Prevents the box from getting too wide */
-	}
-}
+
 
 
