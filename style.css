@@ -360,5 +360,7 @@ iframe {
 
 }
 
-
+.justified-text {
+  text-align: justify;
+}
 
