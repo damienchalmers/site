@@ -293,10 +293,18 @@ iframe {
 }
 
 @media (min-width: 768px) { /* For larger screens */
+.left-column,
+.right-column {
+  width: 100%; /* Full width on mobile */
+  padding: 5px;
+}
+
+@media (min-width: 768px) { /* For larger screens */
   .container {
     flex-direction: row; /* Switch to row on wider screens */
   }
 }
+
 .text-border {
   background: rgba(240, 248, 255, 0.75); /* aliceblue // Adjust opacity to 0.75 */
   border: 1px solid black; /* Thin black border with 1px thickness */
@@ -311,7 +319,6 @@ iframe {
   justify-content: center;
   align-items: center;
  
-
 }
 
 .padded-paragraph3 {
@@ -329,7 +336,6 @@ iframe {
   padding-left: 10px;
   }
 }
-
 
 .text-border2 {
   display: inline-block;
