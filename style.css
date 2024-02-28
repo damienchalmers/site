@@ -295,6 +295,8 @@ iframe {
 @media (min-width: 768px) { /* For larger screens */
   .container {
     flex-direction: row; /* Switch to row on wider screens */
+	  text-align: left; /* Align text to the left */
+    padding-left: 20px; /* Example padding (adjust as needed) */
   }
 }
 
