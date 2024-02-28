@@ -292,6 +292,12 @@ iframe {
   padding: 10px;
 }
 
+@media (max-width: 767px) { /* Target mobile specifically */
+  .left-column {
+    padding-left: 20px; /* Override padding for left column on mobile */
+  }
+}
+
 @media (min-width: 768px) { /* For larger screens */
   .container {
     flex-direction: row; /* Switch to row on wider screens */
