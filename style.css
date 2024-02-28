@@ -293,7 +293,8 @@ iframe {
 }
 
 @media (max-width: 767px) { /* Target mobile specifically */
-  .left-column {
+  .left-column,
+	.right-column {
     padding-left: 0px; /* Override padding for left column on mobile */
   }
 }
