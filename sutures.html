@@ -47,7 +47,7 @@ signification.</p>
         <img src="image3.png" alt="Image 3" class="thumbnail">
         <img src="image4.png" alt="Image 4" class="thumbnail">
     </div>
-  <script>  src="script.js"</script>
+ 
 <br>
   <h2 class="italic-text">The work is part of the larger exosemantic project We Learned Another Language to Not Tell You This.</h2>
   <br>
@@ -62,14 +62,24 @@ signification.</p>
   <br>
   <br>
   <br>
-<script>
-    document.getElementById('iframe-wrapper').addEventListener('touchstart', function(e) {
-        console.log('Wrapper touch start');
-        // Implement custom touch start behavior here
-        // e.preventDefault(); // Uncomment if you need to prevent the default touch behavior
-    });
+ <script>
+        const thumbnails = document.querySelectorAll('.thumbnail');
 
-    // Add more event listeners as needed for touchmove and touchend
-</script>
+        thumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', () => {
+                const enlargedImage = document.createElement('div');
+                enlargedImage.classList.add('enlarged');
+                const image = document.createElement('img');
+                image.src = thumbnail.src;
+                enlargedImage.appendChild(image);
+                document.body.appendChild(enlargedImage);
+
+                // Optional: Close enlarged image on click outside
+                enlargedImage.addEventListener('click', () => {
+                    enlargedImage.remove();
+                });
+            });
+        });
+    </script>
 </body>
 </html>
