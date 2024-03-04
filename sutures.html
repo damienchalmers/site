@@ -64,10 +64,15 @@ signification.</p>
   <br>
   <br>
  <script>
-  const thumbnails = document.querySelectorAll('.thumbnail');
+ const thumbnails = document.querySelectorAll('.thumbnail');
 
 thumbnails.forEach(thumbnail => {
   thumbnail.addEventListener('click', (event) => {
+    // Check for desktop size and exit early if it's desktop
+    if (window.innerWidth > 768) {
+      return; // Exit the function if desktop size
+    }
+
     const enlargedImage = document.createElement('div');
     enlargedImage.classList.add('enlarged');
     const image = document.createElement('img');
@@ -79,13 +84,9 @@ thumbnails.forEach(thumbnail => {
     enlargedImage.addEventListener('click', () => {
       enlargedImage.remove();
     });
-
-    // **Correction:** Check for desktop size and stop propagation instead of preventDefault
-    if (window.innerWidth > 768) {
-      event.stopPropagation(); // Stop event from bubbling up and triggering further clicks
-    }
   });
 });
+
     </script>
 </body>
 </html>
