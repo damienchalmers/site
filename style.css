@@ -377,7 +377,17 @@ iframe {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px; /* Adjust gap between images as needed */
 }
+.thumbnail {
+    object-fit: cover; /* Maintain aspect ratio and fill container */
+    cursor: pointer; /* Indicate clickability (optional) */
+}
 
+/* Hide images on desktop (adjust min-width as needed) */
+@media only screen and (min-width: 768px) {
+    .thumbnail {
+        display: none;
+    }
+}
 
 /* Hide images on desktop (adjust min-width as needed) */
 @media (max-width: 768px) {
