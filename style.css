@@ -383,7 +383,7 @@ iframe {
 }
 
 /* Hide images on desktop (adjust min-width as needed) */
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .thumbnail {
         display: none;
     }
