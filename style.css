@@ -388,7 +388,7 @@ iframe {
 
 /* Hide images on desktop (adjust min-width as needed) */
 @media (max-width: 768px) {
-    .thumbnailz {
+    .thumbnail {
     width: 150px; /* Modify for desired desktop size */
     height: 150px; /* Modify for desired desktop size */
     object-fit: cover; /* Maintain aspect ratio and fill container */
