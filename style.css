@@ -397,10 +397,6 @@ iframe {
     }
 }
 
-.thumbnail:hover,
-.thumbnail:focus {
-    opacity: 0.8; /* Add a slight hover/focus effect */
-}
 
 /* Optional: Style for the enlarged image */
 .enlarged {
