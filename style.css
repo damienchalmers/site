@@ -400,7 +400,7 @@ iframe {
 
 /* Optional: Style for the enlarged image */
 .enlarged {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
