@@ -390,6 +390,8 @@ iframe {
     .thumbnail {
         width: 150px; /* Modify for desired desktop size */
         height: 150px; /* Modify for desired desktop size */
+	     object-fit: cover; /* Maintain aspect ratio and fill container */
+    cursor: pointer; /* Indicate clickability */
     }
 }
 .thumbnail:hover,
