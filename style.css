@@ -388,7 +388,11 @@ iframe {
 /* Hide images on desktop (adjust min-width as needed) */
 @media only screen and (min-width: 768px) {
     .thumbnail {
-        display: none;
+    width: 150px; /* Modify for desired desktop size */
+    height: 150px; /* Modify for desired desktop size */
+    object-fit: cover; /* Maintain aspect ratio and fill container */
+    cursor: pointer; /* Indicate clickability */
+        
     }
 }
 
