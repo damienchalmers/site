@@ -64,23 +64,28 @@ signification.</p>
   <br>
   <br>
  <script>
-        const thumbnails = document.querySelectorAll('.thumbnail');
+     const thumbnails = document.querySelectorAll('.thumbnail');
 
-        thumbnails.forEach(thumbnail => {
-            thumbnail.addEventListener('click', () => {
-                const enlargedImage = document.createElement('div');
-                enlargedImage.classList.add('enlarged');
-                const image = document.createElement('img');
-                image.src = thumbnail.src;
-                enlargedImage.appendChild(image);
-                document.body.appendChild(enlargedImage);
+thumbnails.forEach(thumbnail => {
+  thumbnail.addEventListener('click', (event) => {
+    const enlargedImage = document.createElement('div');
+    enlargedImage.classList.add('enlarged');
+    const image = document.createElement('img');
+    image.src = thumbnail.src;
+    enlargedImage.appendChild(image);
+    document.body.appendChild(enlargedImage);
 
-                // Optional: Close enlarged image on click outside
-                enlargedImage.addEventListener('click', () => {
-                    enlargedImage.remove();
-                });
-            });
-        });
+    // Optional: Close enlarged image on click outside
+    enlargedImage.addEventListener('click', () => {
+      enlargedImage.remove();
+    });
+
+    // Check for desktop size (adjust threshold as needed)
+    if (window.innerWidth > 768) {
+      event.preventDefault(); // Prevent default click behavior on desktops
+    }
+  });
+});
     </script>
 </body>
 </html>
