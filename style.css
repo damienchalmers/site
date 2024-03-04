@@ -371,11 +371,6 @@ iframe {
   text-align: justify;
 }
 	
-
-.thumbnail-grid {
-    display: none;
-
-}
 	
 @media (max-width: 768px) {
 .thumbnail-grid {
@@ -383,7 +378,7 @@ iframe {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px; /* Adjust gap between images as needed */
 }
-
+}
 /* Hide images on desktop (adjust min-width as needed) */
 @media (max-width: 768px) {
     .thumbnail {
