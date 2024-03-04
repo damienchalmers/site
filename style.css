@@ -420,4 +420,10 @@ iframe {
     object-fit: contain; /* Maintain aspect ratio and zoom within modal */
 }
 
+@media (min-width: 768px) {
+  .thumbnail {
+    pointer-events: none;
+  }
+}
+
 
