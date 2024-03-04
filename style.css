@@ -381,14 +381,9 @@ iframe {
   /* Styles for all screen sizes */
   object-fit: cover;
   cursor: pointer;
-}
-
-/* Adjust styles for desktop screens (larger than 768px) */
-@media (min-width: 768px) {
-  .thumbnail {
     width: 200px; /* Adjust width as desired */
     height: 200px; /* Adjust height as desired */
-  }
+
 }
 
 /* Hide images on desktop (adjust min-width as needed) */
