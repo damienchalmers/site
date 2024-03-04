@@ -375,6 +375,8 @@ iframe {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px; /* Adjust gap between images as needed */
+	  width: 300px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
 }
 
 .thumbnail {
