@@ -420,8 +420,4 @@ iframe {
     object-fit: contain; /* Maintain aspect ratio and zoom within modal */
 }
 
-.container-image {
-	width: 50%;
-    height: 50%;
-}
 
