@@ -371,12 +371,6 @@ iframe {
   text-align: justify;
 }
 
-.thumbnail-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 50px; /* Adjust gap between images as needed */
-}
-	
  .thumbnail {
     width: 500px; /* Modify for desired desktop size */
     height: 500px; /* Modify for desired desktop size */
