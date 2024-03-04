@@ -372,8 +372,8 @@ iframe {
 }
 	
  .thumbnail {
-    width: 300px; /* Modify for desired desktop size */
-    height: 300px; /* Modify for desired desktop size */
+    width: 500px; /* Modify for desired desktop size */
+    height: 500px; /* Modify for desired desktop size */
  }
 	
 @media (max-width: 768px) {
