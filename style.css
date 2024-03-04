@@ -378,13 +378,6 @@ iframe {
     gap: 10px; /* Adjust gap between images as needed */
 }
 
-.thumbnail {
-  /* Styles for all screen sizes */
-
-    width: 200px; /* Adjust width as desired */
-    height: 200px; /* Adjust height as desired */
-
-}
 
 /* Hide images on desktop (adjust min-width as needed) */
 @media (max-width: 768px) {
