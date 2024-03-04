@@ -379,8 +379,8 @@ iframe {
 
 .thumbnail {
     /* Initial size, adjust as needed (desktop only) */
-    width: 400px; /* Modify for desired desktop size */
-    height: 400px; /* Modify for desired desktop size */
+    max-width: 200px; /* Adjust as desired */
+  max-height: 200px; /* Adjust as desired */
     object-fit: cover; /* Maintain aspect ratio and fill container */
     cursor: pointer; /* Indicate clickability */
    
