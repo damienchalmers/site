@@ -373,15 +373,15 @@ iframe {
 	
 
 .thumbnail-grid {
+    display: none;
+
+}
+	
+@media (max-width: 768px) {
+.thumbnail-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px; /* Adjust gap between images as needed */
-}
-	
-.thumbnail {
-   display: none;
-    object-fit: cover; /* Maintain aspect ratio and fill container */
-    cursor: pointer; /* Indicate clickability (optional) */
 }
 
 /* Hide images on desktop (adjust min-width as needed) */
