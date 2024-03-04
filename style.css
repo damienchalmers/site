@@ -378,14 +378,20 @@ iframe {
 }
 
 .thumbnail {
-    /* Initial size, adjust as needed */
-    width: 150px;
-    height: 150px;
-   position: center;
+    /* Initial size, adjust as needed (desktop only) */
+    width: 200px; /* Modify for desired desktop size */
+    height: 200px; /* Modify for desired desktop size */
     object-fit: cover; /* Maintain aspect ratio and fill container */
     cursor: pointer; /* Indicate clickability */
 }
 
+/* Media query targeting desktop devices (adjust as needed) */
+@media only screen and (min-width: 768px) {
+    .thumbnail {
+        width: 150px; /* Modify for desired desktop size */
+        height: 150px; /* Modify for desired desktop size */
+    }
+}
 .thumbnail:hover,
 .thumbnail:focus {
     opacity: 0.8; /* Add a slight hover/focus effect */
