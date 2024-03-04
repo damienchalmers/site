@@ -370,11 +370,6 @@ iframe {
 .justified-text {
   text-align: justify;
 }
-
- .thumbnail {
-    width: 500px; /* Modify for desired desktop size */
-    height: 500px; /* Modify for desired desktop size */
- }
 	
 @media (max-width: 768px) {
 .thumbnail-grid {
