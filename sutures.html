@@ -64,7 +64,7 @@ signification.</p>
   <br>
   <br>
  <script>
-     const thumbnails = document.querySelectorAll('.thumbnail');
+  const thumbnails = document.querySelectorAll('.thumbnail');
 
 thumbnails.forEach(thumbnail => {
   thumbnail.addEventListener('click', (event) => {
@@ -80,9 +80,9 @@ thumbnails.forEach(thumbnail => {
       enlargedImage.remove();
     });
 
-    // Check for desktop size (adjust threshold as needed)
+    // **Correction:** Check for desktop size and stop propagation instead of preventDefault
     if (window.innerWidth > 768) {
-      event.preventDefault(); // Prevent default click behavior on desktops
+      event.stopPropagation(); // Stop event from bubbling up and triggering further clicks
     }
   });
 });
