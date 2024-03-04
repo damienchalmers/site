@@ -380,8 +380,7 @@ iframe {
 
 .thumbnail {
   /* Styles for all screen sizes */
-  object-fit: cover;
-  cursor: pointer;
+
     width: 200px; /* Adjust width as desired */
     height: 200px; /* Adjust height as desired */
 
@@ -420,10 +419,5 @@ iframe {
     object-fit: contain; /* Maintain aspect ratio and zoom within modal */
 }
 
-@media (min-width: 768px) {
-  .thumbnail {
-    pointer-events: none;
-  }
-}
 
 
