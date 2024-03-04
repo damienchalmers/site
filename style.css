@@ -379,14 +379,14 @@ iframe {
 
 .thumbnail {
     /* Initial size, adjust as needed (desktop only) */
-    width: 10px; /* Modify for desired desktop size */
-    height: 10px; /* Modify for desired desktop size */
+    width: 150px; /* Modify for desired desktop size */
+    height: 150px; /* Modify for desired desktop size */
     object-fit: cover; /* Maintain aspect ratio and fill container */
     cursor: pointer; /* Indicate clickability */
 }
 
 /* Hide images on desktop (adjust min-width as needed) */
-@media only screen and (min-width: 768px) {
+@media (max-width: 768px) {
     .thumbnail {
     width: 150px; /* Modify for desired desktop size */
     height: 150px; /* Modify for desired desktop size */
