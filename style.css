@@ -371,10 +371,11 @@ iframe {
   text-align: justify;
 }
 
-	.thumbnail-grid {
+.thumbnail-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 10px; /* Adjust gap between images as needed */
+    pointer-events: none; /* Allow clicks to reach thumbnails */
 }
 
 .thumbnail {
