@@ -381,8 +381,7 @@ iframe {
     /* Initial size, adjust as needed (desktop only) */
     width: 400px; /* Modify for desired desktop size */
     height: 400px; /* Modify for desired desktop size */
-    object-fit: cover; /* Maintain aspect ratio and fill container */
-    cursor: pointer; /* Indicate clickability */
+   
 }
 
 /* Hide images on desktop (adjust min-width as needed) */
