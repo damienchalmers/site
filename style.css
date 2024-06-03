@@ -289,6 +289,23 @@ iframe {
   margin-left: 2rem;
 }
 
+@media (min-width: 768px) {
+  .demo > :first-child {
+    margin-left: 2rem;
+  }
+
+  .demo > :nth-child(2) {
+    margin-left: 3rem;
+  }
+
+  .demo > :nth-child(3) {
+    margin-left: 4rem;
+  }
+
+  .demo > :last-child {
+    margin-left: 5rem;
+  }
+}
 
 .container {
   display: flex;
