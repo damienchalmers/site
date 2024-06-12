@@ -244,7 +244,50 @@ iframe {
     position: absolute;
     right: 20px;
 }
+.demo > * {
+  width: 250px;
+  height: 200px;
+  padding: 1em;
+}
 
+.demo > [data-state='relative'] {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.demo > * + * {
+  margin-top: -150px;
+  opacity: 0.75;
+  box-shadow: 0 -1px 10px rgba(0 0 0 / 60%);
+}
+
+.demo > :first-child {
+  background: rgba(240, 248, 255, 0.75); /* aliceblue */
+  border: 2px solid lightblue;
+  z-index: 4;
+}
+
+.demo > :nth-child(2) {
+  background: rgba(255, 192, 203, 0.75);
+  border: 2px solid hotpink;
+  z-index: 3;
+  margin-left: 1rem;
+}
+
+.demo > :nth-child(3) {
+  background: wheat;
+  border: 2px solid gold;
+  z-index: 2;
+  margin-left: 2rem;
+}
+
+.demo > :last-child {
+  background: rgba(170, 240, 209, 0.75); /* mint green */
+  border: 2px solid mediumseagreen;
+  z-index: 1;
+  margin-left: 3rem;
+}
 @media (min-width: 768px) {
   .demo > :first-child {
     margin-left: 3rem;
@@ -392,68 +435,4 @@ iframe {
     /* Zoom effect on click */
     object-fit: contain; /* Maintain aspect ratio and zoom within modal */
 }
-.demo > * {
-  width: 250px;
-  height: 200px;
-  padding: 1em;
-}
 
-.demo > [data-state='relative'] {
-  position: relative;
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-.demo > * + * {
-  margin-top: -150px;
-  opacity: 0.75;
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.6);
-}
-
-.demo > :first-child {
-  background: rgba(240, 248, 255, 0.75); /* aliceblue */
-  border: 2px solid lightblue;
-  z-index: 4;
-}
-
-.demo > :nth-child(2) {
-  background: rgba(255, 192, 203, 0.75);
-  border: 2px solid hotpink;
-  z-index: 3;
-  margin-left: 1rem;
-}
-
-.demo > :nth-child(3) {
-  background: wheat;
-  border: 2px solid gold;
-  z-index: 2;
-  margin-left: 2rem;
-}
-
-.demo > :last-child {
-  background: rgba(170, 240, 209, 0.75); /* mint green */
-  border: 2px solid mediumseagreen;
-  z-index: 1;
-  margin-left: 3rem;
-}
-
-.rumble {
-  display: inline-block; /* or block, depending on your needs */
-  overflow: hidden;
-  transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
-  padding: 10px; /* Adding some padding for better visibility */
-  margin: 10px; /* Adding some margin for spacing between elements */
-  background-color: #f0f0f0; /* Background color for better visibility */
-  border: 1px solid #ccc; /* Border for better visibility */
-  text-decoration: none; /* Remove underline from the text */
-  color: #333; /* Text color */
-}
-
-.rumble:hover {
-  transform: scale(1.1); /* Slight zoom effect */
-}
-
-a {
-  text-decoration: none; /* Remove underline from links */
-  display: block; /* Ensure links take up full block space */
-}
