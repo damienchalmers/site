@@ -445,3 +445,7 @@ iframe {
   75% { transform: translate(1px, 1px) rotate(0deg); }
   100% { transform: translate(0px, 0px) rotate(-1deg); }
 }
+	
+.rumble-element:hover {
+  animation: rumble 0.2s infinite;
+}
