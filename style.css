@@ -249,6 +249,7 @@ iframe {
   width: 250px;
   height: 200px;
   padding: 1em;
+  position: absolute;
 }
 
 .demo > [data-state='relative'] {
@@ -260,7 +261,7 @@ iframe {
 .demo > * + * {
   margin-top: -150px;
   opacity: 0.75;
-  box-shadow: 0 -1px 10px rgba(0 0 0 / 60%);
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.6);
 }
 
 .demo > :first-child {
