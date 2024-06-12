@@ -245,58 +245,50 @@ iframe {
     right: 20px;
 }
 
-    .demo {
-      position: relative;
-      width: 100%;
-      height: 100%;
-    }
+.demo > * {
+  width: 250px;
+  height: 200px;
+  padding: 1em;
+}
 
-    .demo > * {
-      width: 250px;
-      height: 200px;
-      padding: 1em;
-      position: absolute;
-      cursor: grab;
-    }
+.demo > [data-state='relative'] {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
 
-    .demo > [data-state='relative'] {
-      position: relative;
-      display: flex;
-      flex-direction: column-reverse;
-    }
+.demo > * + * {
+  margin-top: -150px;
+  opacity: 0.75;
+  box-shadow: 0 -1px 10px rgba(0 0 0 / 60%);
+}
 
-    .demo > * + * {
-      margin-top: -150px;
-      opacity: 0.75;
-      box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.6);
-    }
+.demo > :first-child {
+  background: rgba(240, 248, 255, 0.75); /* aliceblue */
+  border: 2px solid lightblue;
+  z-index: 4;
+}
 
-    .demo > :first-child {
-      background: rgba(240, 248, 255, 0.75); /* aliceblue */
-      border: 2px solid lightblue;
-      z-index: 4;
-    }
+.demo > :nth-child(2) {
+  background: rgba(255, 192, 203, 0.75);
+  border: 2px solid hotpink;
+  z-index: 3;
+  margin-left: 1rem;
+}
 
-    .demo > :nth-child(2) {
-      background: rgba(255, 192, 203, 0.75);
-      border: 2px solid hotpink;
-      z-index: 3;
-      margin-left: 1rem;
-    }
+.demo > :nth-child(3) {
+  background: wheat;
+  border: 2px solid gold;
+  z-index: 2;
+  margin-left: 2rem;
+}
 
-    .demo > :nth-child(3) {
-      background: wheat;
-      border: 2px solid gold;
-      z-index: 2;
-      margin-left: 2rem;
-    }
-
-    .demo > :last-child {
-      background: rgba(170, 240, 209, 0.75); /* mint green */
-      border: 2px solid mediumseagreen;
-      z-index: 1;
-      margin-left: 3rem;
-    }
+.demo > :last-child {
+  background: rgba(170, 240, 209, 0.75); /* mint green */
+  border: 2px solid mediumseagreen;
+  z-index: 1;
+  margin-left: 3rem;
+}
 
 @media (min-width: 768px) {
   .demo > :first-child {
