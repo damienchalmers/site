@@ -24,6 +24,32 @@
               <a style="display:block" href="documents.html" draggable="true">
   <div class="demo-box">paintings</div>
 </a>
+  <script>
+    document.querySelectorAll('.demo > *').forEach(item => {
+      item.addEventListener('dragstart', dragStart);
+      item.addEventListener('dragend', dragEnd);
+    });
 
+    function dragStart(e) {
+      e.dataTransfer.setData('text/plain', null); // required for Firefox
+      this.style.opacity = '0.4';
+      this.style.position = 'absolute';
+      this.style.zIndex = '10';
+
+      this.draggingOffsetX = e.clientX - this.getBoundingClientRect().left;
+      this.draggingOffsetY = e.clientY - this.getBoundingClientRect().top;
+    }
+
+    function dragEnd(e) {
+      this.style.opacity = '1';
+      this.style.zIndex = 'auto';
+
+      let x = e.clientX - this.draggingOffsetX;
+      let y = e.clientY - this.draggingOffsetY;
+
+      this.style.left = `${x}px`;
+      this.style.top = `${y}px`;
+    }
+  </script>
 </body>
 </html>
