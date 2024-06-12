@@ -444,7 +444,7 @@ iframe {
       20%, 40%, 60%, 80% { transform: translateX(10px); }
     }
 
-    .demo > *:hover {
+    .demo > *:hover .demo-box{
       animation: shake 0.5s;
     }
 
