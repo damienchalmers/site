@@ -438,13 +438,10 @@ iframe {
     object-fit: contain; /* Maintain aspect ratio and zoom within modal */
 }
 
-   @keyframes shake {
-      0%, 100% { transform: translateX(0); }
-      10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
-      20%, 40%, 60%, 80% { transform: translateX(10px); }
-    }
-
-    .demo > *:hover .demo-box{
-      animation: shake 0.5s;
-    }
-
+@keyframes rumble {
+  0% { transform: translate(0px, 0px) rotate(0deg); }
+  25% { transform: translate(1px, -1px) rotate(-1deg); }
+  50% { transform: translate(-1px, 1px) rotate(1deg); }
+  75% { transform: translate(1px, 1px) rotate(0deg); }
+  100% { transform: translate(0px, 0px) rotate(-1deg); }
+}
