@@ -295,7 +295,7 @@ iframe {
   z-index: 1;
   margin-left: 4rem;
 }
-}
+
 @media (min-width: 768px) {
   .demo > :first-child {
     margin-left: 3rem;
