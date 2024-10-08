@@ -283,15 +283,15 @@ iframe {
 }
 
 .demo > :nth-child(4) {
-  background: wheat;
+  background: mediumaquamarine;
   border: 2px solid mediumseagreen;
   z-index: 2;
   margin-left: 3rem;
 }
 
 .demo > :last-child {
-  background: rgba(170, 240, 209, 0.75); /* mint green */
-  border: 2px lightgrey;
+  background: lightgrey; 
+  border: 2px darkgray;
   z-index: 1;
   margin-left: 4rem;
 }
