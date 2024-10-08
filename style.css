@@ -265,20 +265,20 @@ iframe {
 .demo > :first-child {
   background: rgba(240, 248, 255, 0.75); /* aliceblue */
   border: 2px solid lightblue;
-  z-index: 4;
+  z-index: 5;
 }
 
 .demo > :nth-child(2) {
   background: rgba(255, 192, 203, 0.75);
   border: 2px solid hotpink;
-  z-index: 3;
+  z-index: 4;
   margin-left: 1rem;
 }
 
 .demo > :nth-child(3) {
   background: wheat;
   border: 2px solid gold;
-  z-index: 2;
+  z-index: 3;
   margin-left: 2rem;
 }
 
