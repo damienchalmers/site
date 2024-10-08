@@ -283,7 +283,7 @@ iframe {
 }
 
 .demo > :nth-child(4) {
-  background: lightaquamarine;
+  background: mediumaquamarine;
   border: 2px solid mediumseagreen;
   z-index: 2;
   margin-left: 3rem;
@@ -291,7 +291,7 @@ iframe {
 
 .demo > :last-child {
   background: lightgrey; 
-  border: 2px darkgrey;
+  border: 2px slategrey;
   z-index: 1;
   margin-left: 4rem;
 }
