@@ -291,7 +291,7 @@ iframe {
 
 .demo > :last-child {
   background: lightgrey; 
-  border: 2px slategrey;
+  border: 2px SlateGrey;
   z-index: 1;
   margin-left: 4rem;
 }
