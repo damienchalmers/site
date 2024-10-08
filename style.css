@@ -282,11 +282,18 @@ iframe {
   margin-left: 2rem;
 }
 
+.demo > :nth-child(4) {
+  background: wheat;
+  border: 2px solid mediumseagreen;
+  z-index: 2;
+  margin-left: 3rem;
+}
+
 .demo > :last-child {
   background: rgba(170, 240, 209, 0.75); /* mint green */
-  border: 2px solid mediumseagreen;
+  border: 2px lightgrey;
   z-index: 1;
-  margin-left: 3rem;
+  margin-left: 4rem;
 }
 @media (min-width: 768px) {
   .demo > :first-child {
@@ -300,9 +307,13 @@ iframe {
   .demo > :nth-child(3) {
     margin-left: 5rem;
   }
-
-  .demo > :last-child {
+	
+.demo > :nth-child(4) {
     margin-left: 6rem;
+  }
+	
+  .demo > :last-child {
+    margin-left: 7rem;
   }
 }
 
